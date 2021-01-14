@@ -1,72 +1,86 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    color: #3E3E3E;
-}
-
-main {
-    background-image: url("dot.svg");
-    z-index: 50;
-}
-
-h2 {
-    font-family: 'Bebas Neue', cursive;
-    color: #363958;
-    padding-bottom: 1rem;
-}
-
-h5 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #363958;
-}
-
-h6 {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #363958;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, .55);
-    font-weight: 800;
-}
-
-.text_orange {
-    color: #FA804C;
-    font-weight: 900;
-    font-size: 1.75rem;
-}
-
-.link_text {
-    color: dimgray;
-    font-size: 16px;
-    font-weight: 800;
-}
-
-.box {
-    width: 98%;
-    border-radius: 1rem;
-}
-
-.product_bg {
-    background-color: #F1F1F1;
-    border-radius: 1rem;
-}
-
-footer a {
-    display: block;
-    font-size: .85rem;
-    font-weight: 400;
-    text-decoration: none;
-    color: #727272;
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: #413f3f;
-}
-
-footer i {
-    padding-right: .5rem;
-}
+                    body {
+                font-family: 'Roboto', sans-serif;
+                position: relative;
+                color: #3E3E3E;
+            }
+            
+            main {
+                background-image: url("dot.svg");
+                z-index: 50;
+            }
+            
+            h2 {
+                font-family: 'Bebas Neue', cursive;
+                color: #363958;
+                padding-bottom: 1rem;
+            }
+            
+            h5 {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #363958;
+            }
+            
+            h6 {
+                font-size: 1rem;
+                font-weight: bold;
+                color: #363958;
+            }
+            
+            .navbar-light .navbar-nav .nav-link {
+                color: rgba(0, 0, 0, .55);
+                font-weight: 800;
+            }
+            
+            .text_orange {
+                color: #FA804C;
+                font-weight: 900;
+                font-size: 1.75rem;
+            }
+            
+            .link_text {
+                color: dimgray;
+                font-size: 16px;
+                font-weight: 800;
+            }
+            
+            .box {
+                width: 98%;
+                border-radius: 1rem;
+            }
+            
+            .product_bg {
+                background-color: #F1F1F1;
+                border-radius: 1rem;
+            }
+            
+            footer a {
+                display: block;
+                font-size: .85rem;
+                font-weight: 400;
+                text-decoration: none;
+                color: #727272;
+            }
+            
+            footer a:hover {
+                text-decoration: none;
+                color: #413f3f;
+            }
+            
+            footer i {
+                padding-right: .5rem;
+            }
+            
+            @media only screen and (max-width: 900px) {
+                .service {
+                    text-align: center;
+                }
+                .responcive-center-text {
+                    text-align: center!important;
+                }
+                .img_height {
+                    height: 100px;
+                    object-fit: contain;
+                }
+                .small_screen_full_width {
+                    width: 100%!important;
